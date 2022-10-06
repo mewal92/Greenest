@@ -4,7 +4,7 @@ import javax.swing.*;
 
 class Huvudprogram {
     public Huvudprogram() {
-
+//skapar upp objekt och tillhörande bild (polymorfism)
         Plantor p1 = new Kaktus("Igge", 0.2);
         ImageIcon icon1 = new ImageIcon(("src\\Greenest\\img\\igge.jpg"));
 
@@ -18,7 +18,7 @@ class Huvudprogram {
         ImageIcon icon4 = new ImageIcon(("src\\Greenest\\img\\laura.jpg"));
 
 
-        while (true) {
+        while (true) { //programmet fortsätter tills man anger avbryt eller trycker cancel
             try {
                 String vemSkaMatas = JOptionPane.showInputDialog(null,
                         "Vilken växt ska ha mat? \nAnge 'avbryt' för exit");

@@ -1,5 +1,5 @@
 package Greenest;
-
+//enums
 enum Näringsdrycker {
     MINERALVATTEN ("mineralvatten", 0.02),
     PROTEINDRYCK ("proteindryck", 0.1),
